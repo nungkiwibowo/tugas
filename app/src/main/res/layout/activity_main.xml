@@ -37,7 +37,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
                     android:text="Nungki Wibowo"
-                    android:textColor="#fff"
+                    android:textColor="#FFFFFF"
                     android:textSize="21sp"
                     android:textStyle="bold" />
 
@@ -74,6 +74,7 @@
                 android:paddingLeft="20dp"
                 android:text="1718084@scholar.itn.ac.id"
                 android:textSize="20sp"
+
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -118,7 +119,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Add to group"
+                android:text="@string/add_to_group"
+                android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -140,7 +142,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Show all comments"
+                android:text="@string/show_all_comments"
+                android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -155,7 +158,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/custom_button"
         android:clickable="true"
-        android:text="Follow"
+        android:text="@string/follow"
         android:textAlignment="center"
         android:textColor="#fff" />
 
